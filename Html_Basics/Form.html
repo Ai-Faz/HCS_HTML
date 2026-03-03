@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Complete Registration Form</title>
+</head>
+<body>
+
+    <h2>Complete Registration Form</h2>
+
+    <form action="/Html_Basics/success.html" method="get"> <!-- Post -->
+
+        <!-- Text Input -->
+        <label>Full Name:</label><br>
+        <input type="text" name="fullname" placeholder="Enter your full name" required><br><br>
+
+        <!-- Email -->
+        <label>Email:</label><br>
+        <input type="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <!-- Password -->
+        <label>Password:</label><br>
+        <input type="password" name="password" placeholder="Enter your password" required><br><br>
+
+        <!-- Number -->
+        <label>Phone Number:</label><br>
+        <input type="number" name="phone" placeholder="Enter phone number"><br><br>
+
+        <!-- Date -->
+        <label>Date of Birth:</label><br>
+        <input type="date" name="dob"><br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="male" required> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other<br><br>
+
+        <!-- Checkboxes -->
+        <label>Skills:</label><br>
+        <input type="checkbox" name="skills" value="html"> HTML<br>
+        <input type="checkbox" name="skills" value="css"> CSS<br>
+        <input type="checkbox" name="skills" value="javascript"> JavaScript<br><br>
+
+        <!-- Dropdown -->
+        <label>Country:</label><br>
+        <select name="country">
+            <option value="">Select Country</option>
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+        </select><br><br>
+
+        <!-- Textarea -->
+        <label>Address:</label><br>
+        <textarea name="address" rows="4" cols="30" placeholder="Enter your address"></textarea><br><br>
+
+        <!-- File Upload -->
+        <label>Upload Profile Picture:</label><br>
+        <input type="file" name="profile"><br><br>
+
+        <!-- Buttons -->
+        <input type="reset" value="Reset">
+        <input type="submit" value="Register">
+
+    </form>
+
+</body>
+</html>
